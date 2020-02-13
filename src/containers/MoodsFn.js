@@ -1,6 +1,5 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import Controls from '../components/controls/Controls';
-import reducer from '../reducers/moodReducer';
 import { useDispatch, useSelector } from 'react-redux';
 import Face from '../components/face/Face';
 import { drinkCoffee, eatSnack, takeNap, study } from '../actions/moodActions';
